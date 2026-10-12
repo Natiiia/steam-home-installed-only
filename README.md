@@ -1,5 +1,7 @@
 # Home Installed Only — Windows / Millennium
 
+**简体中文** | [English](README.en.md)
+
 在 Windows Steam 大屏模式的主页隐藏未安装游戏。直接过滤主页生成卡片时使用的游戏列表，所以未安装游戏不会占据空位，也不会被手柄选中。库页面保持完整。
 
 ## 安装
