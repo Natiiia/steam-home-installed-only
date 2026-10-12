@@ -1,0 +1,19 @@
+[plugin]
+id = "local.home-installed-only"
+name = "Home Installed Only"
+version = "0.3.0"
+author = "Local"
+description = "Only locally installed games and non-Steam shortcuts in Big Picture Home."
+
+[backend]
+entry = "backend/main.lua"
+sources = ["backend/**/*.lua"]
+
+[frontend]
+entry = "frontend/index.ts"
+
+[compiler]
+output_path = "home-installed-only.star"
+
+[patches]
+debug = true

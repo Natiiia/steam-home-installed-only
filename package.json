@@ -1,0 +1,12 @@
+{
+  "name": "home-installed-only",
+  "version": "0.3.0",
+  "private": true,
+  "scripts": {
+    "build": "starlight pack",
+    "prepare": "starlight lsp"
+  },
+  "devDependencies": {
+    "@steambrew/starlight": "1.1.3"
+  }
+}
