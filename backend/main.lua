@@ -10,7 +10,7 @@ return {
   end,
   patches = {
     {
-      file = [[chunk~[0-9a-f]+\.js]],
+      file = [[(?:chunk~[0-9a-f]+|sp)\.js]],
       find = [[let \w+=\w+\.md\.GetCollection\(\w+\.A8\.Recent\)\.visibleApps[\s\S]*?return \w+\.splice\(20\),JSON\.stringify\(\w+\.map\(\w+=>\w+\.appid\)\)]],
       transforms = {
         {
