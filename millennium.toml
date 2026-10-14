@@ -1,7 +1,7 @@
 [plugin]
 id = "local.home-installed-only"
 name = "Home Installed Only"
-version = "0.3.0"
+version = "0.3.1"
 author = "Local"
 description = "Only locally installed games and non-Steam shortcuts in Big Picture Home."
 

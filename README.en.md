@@ -2,6 +2,8 @@
 
 [简体中文](README.md) | **English**
 
+Current version: **0.3.1**. Fixes filtering after Steam moved the home code into `sp.js`, while retaining support for the previous file location. See the [changelog](CHANGELOG.md).
+
 Hide uninstalled games from the Windows Steam Big Picture home screen. The plugin filters the game list used to generate home cards, so removed games leave no empty slots and cannot be selected with a controller. Your library remains unchanged.
 
 ## Installation

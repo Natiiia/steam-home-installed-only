@@ -8,7 +8,7 @@ const match = new RegExp(lua.match(/match = \[\[([\s\S]*?)\]\]/)[1]);
 const replacement = lua.match(/replace = \[\[([\s\S]*?)\]\]/)[1].replace(/\\1/g,'$1');
 if (process.argv[2]) {
   let matches = 0;
-  for (const file of fs.readdirSync(process.argv[2]).filter(name=>/^chunk~.*\.js$/.test(name))) {
+  for (const file of fs.readdirSync(process.argv[2]).filter(name=>/^(?:chunk~.*|sp)\.js$/.test(name))) {
     const bundle = fs.readFileSync(path.join(process.argv[2],file),'utf8');
     const count = [...bundle.matchAll(find)].length;
     matches += count;
